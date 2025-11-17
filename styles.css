@@ -8,11 +8,20 @@ body {
   text-align: center;
   border-radius: 10px;
   font-weight: bold;
-  margin: 10px 20px 30px 90px;
+  margin: 10px;
   border: 3px darkturquoise solid;
   padding: 12px;
   /*
   MBPC
   My Busted PC
   */
+}
+/* Select an elemenet with the myContainer class */
+.myContainer {
+  display: grid;
+
+  grid-template-columns: 30% 100% 50%;
+  grid-template-rows: 100px 150px 200px 70px 300px;
+  grid-gap: 15px;
+
 }
